@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6802844F2577E0210005A849 /* EndScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6802844E2577E0210005A849 /* EndScene.sks */; };
+		680284522577E22F0005A849 /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680284512577E22F0005A849 /* EndScene.swift */; };
+		68130CBA257A1DCC005237FA /* Powerup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68130CB9257A1DCC005237FA /* Powerup.swift */; };
+		68130CBD257B59C8005237FA /* Laser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68130CBC257B59C8005237FA /* Laser.swift */; };
+		685FFFF125766774006E5420 /* Arkanoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FFFF025766774006E5420 /* Arkanoid.swift */; };
+		686BDBE0256BE0C000A2AF17 /* BlockGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BDBDF256BE0C000A2AF17 /* BlockGrid.swift */; };
+		686BDBE3256BF94200A2AF17 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BDBE2256BF94200A2AF17 /* Ball.swift */; };
+		686BDBE7256C000800A2AF17 /* Boom.sks in Resources */ = {isa = PBXBuildFile; fileRef = 686BDBE5256C000800A2AF17 /* Boom.sks */; };
+		686BDBE8256C000800A2AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686BDBE6256C000800A2AF17 /* Assets.xcassets */; };
+		686BDBEB256C0D7C00A2AF17 /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BDBEA256C0D7C00A2AF17 /* Paddle.swift */; };
+		68C55930256D1E5E008F8871 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C5592F256D1E5E008F8871 /* Button.swift */; };
+		68C55934256D2266008F8871 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68C55933256D2266008F8871 /* MenuScene.sks */; };
+		68C55937256D22C9008F8871 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C55936256D22C9008F8871 /* MenuScene.swift */; };
 		68F701082568DE4100E7754E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F701072568DE4100E7754E /* AppDelegate.swift */; };
 		68F7010A2568DE4100E7754E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68F701092568DE4100E7754E /* GameScene.sks */; };
-		68F7010C2568DE4100E7754E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68F7010B2568DE4100E7754E /* Actions.sks */; };
 		68F7010E2568DE4100E7754E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F7010D2568DE4100E7754E /* GameScene.swift */; };
 		68F701102568DE4200E7754E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F7010F2568DE4200E7754E /* GameViewController.swift */; };
 		68F701132568DE4200E7754E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F701112568DE4200E7754E /* Main.storyboard */; };
 		68F701152568DE4500E7754E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F701142568DE4500E7754E /* Assets.xcassets */; };
+		68F7012D2569058B00E7754E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F7012C2569058B00E7754E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6802844E2577E0210005A849 /* EndScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScene.sks; sourceTree = "<group>"; };
+		680284512577E22F0005A849 /* EndScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
+		68130CB9257A1DCC005237FA /* Powerup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerup.swift; sourceTree = "<group>"; };
+		68130CBC257B59C8005237FA /* Laser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laser.swift; sourceTree = "<group>"; };
+		685FFFF025766774006E5420 /* Arkanoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arkanoid.swift; sourceTree = "<group>"; };
+		686BDBDF256BE0C000A2AF17 /* BlockGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockGrid.swift; sourceTree = "<group>"; };
+		686BDBE2256BF94200A2AF17 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		686BDBE5256C000800A2AF17 /* Boom.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Boom.sks; sourceTree = "<group>"; };
+		686BDBE6256C000800A2AF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		686BDBEA256C0D7C00A2AF17 /* Paddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddle.swift; sourceTree = "<group>"; };
+		68C5592F256D1E5E008F8871 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		68C55933256D2266008F8871 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		68C55936256D22C9008F8871 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		68F701042568DE4100E7754E /* Arkanoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arkanoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F701072568DE4100E7754E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68F701092568DE4100E7754E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		68F7010B2568DE4100E7754E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		68F7010D2568DE4100E7754E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		68F7010F2568DE4200E7754E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		68F701122568DE4200E7754E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68F701142568DE4500E7754E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68F701162568DE4500E7754E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F7012C2569058B00E7754E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +65,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		685FFFEF25766765006E5420 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				685FFFF025766774006E5420 /* Arkanoid.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68C55932256D2227008F8871 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				68F701092568DE4100E7754E /* GameScene.sks */,
+				68F7010D2568DE4100E7754E /* GameScene.swift */,
+				68C55933256D2266008F8871 /* MenuScene.sks */,
+				68C55936256D22C9008F8871 /* MenuScene.swift */,
+				6802844E2577E0210005A849 /* EndScene.sks */,
+				680284512577E22F0005A849 /* EndScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		68F700FB2568DE4100E7754E = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +105,32 @@
 		68F701062568DE4100E7754E /* Arkanoid */ = {
 			isa = PBXGroup;
 			children = (
+				685FFFEF25766765006E5420 /* Model */,
+				68C55932256D2227008F8871 /* Scenes */,
+				68F7012F2569065F00E7754E /* view */,
 				68F701072568DE4100E7754E /* AppDelegate.swift */,
-				68F701092568DE4100E7754E /* GameScene.sks */,
-				68F7010B2568DE4100E7754E /* Actions.sks */,
-				68F7010D2568DE4100E7754E /* GameScene.swift */,
 				68F7010F2568DE4200E7754E /* GameViewController.swift */,
 				68F701112568DE4200E7754E /* Main.storyboard */,
 				68F701142568DE4500E7754E /* Assets.xcassets */,
 				68F701162568DE4500E7754E /* Info.plist */,
+				68F7012C2569058B00E7754E /* Constants.swift */,
 			);
 			path = Arkanoid;
+			sourceTree = "<group>";
+		};
+		68F7012F2569065F00E7754E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				686BDBDF256BE0C000A2AF17 /* BlockGrid.swift */,
+				686BDBE2256BF94200A2AF17 /* Ball.swift */,
+				686BDBE5256C000800A2AF17 /* Boom.sks */,
+				686BDBE6256C000800A2AF17 /* Assets.xcassets */,
+				686BDBEA256C0D7C00A2AF17 /* Paddle.swift */,
+				68C5592F256D1E5E008F8871 /* Button.swift */,
+				68130CB9257A1DCC005237FA /* Powerup.swift */,
+				68130CBC257B59C8005237FA /* Laser.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,10 +190,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686BDBE7256C000800A2AF17 /* Boom.sks in Resources */,
+				68C55934256D2266008F8871 /* MenuScene.sks in Resources */,
 				68F701132568DE4200E7754E /* Main.storyboard in Resources */,
 				68F7010A2568DE4100E7754E /* GameScene.sks in Resources */,
 				68F701152568DE4500E7754E /* Assets.xcassets in Resources */,
-				68F7010C2568DE4100E7754E /* Actions.sks in Resources */,
+				6802844F2577E0210005A849 /* EndScene.sks in Resources */,
+				686BDBE8256C000800A2AF17 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +207,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				685FFFF125766774006E5420 /* Arkanoid.swift in Sources */,
 				68F7010E2568DE4100E7754E /* GameScene.swift in Sources */,
+				68130CBA257A1DCC005237FA /* Powerup.swift in Sources */,
+				686BDBEB256C0D7C00A2AF17 /* Paddle.swift in Sources */,
 				68F701102568DE4200E7754E /* GameViewController.swift in Sources */,
+				68C55937256D22C9008F8871 /* MenuScene.swift in Sources */,
+				68130CBD257B59C8005237FA /* Laser.swift in Sources */,
+				68C55930256D1E5E008F8871 /* Button.swift in Sources */,
+				680284522577E22F0005A849 /* EndScene.swift in Sources */,
+				686BDBE0256BE0C000A2AF17 /* BlockGrid.swift in Sources */,
 				68F701082568DE4100E7754E /* AppDelegate.swift in Sources */,
+				686BDBE3256BF94200A2AF17 /* Ball.swift in Sources */,
+				68F7012D2569058B00E7754E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -267,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.Arkanoid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,7 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.Arkanoid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
