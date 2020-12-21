@@ -34,6 +34,7 @@
 		680284512577E22F0005A849 /* EndScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
 		68130CB9257A1DCC005237FA /* Powerup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerup.swift; sourceTree = "<group>"; };
 		68130CBC257B59C8005237FA /* Laser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laser.swift; sourceTree = "<group>"; };
+		68304E832590835900DBD01D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		685FFFF025766774006E5420 /* Arkanoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arkanoid.swift; sourceTree = "<group>"; };
 		686BDBDF256BE0C000A2AF17 /* BlockGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockGrid.swift; sourceTree = "<group>"; };
 		686BDBE2256BF94200A2AF17 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 		68F700FB2568DE4100E7754E = {
 			isa = PBXGroup;
 			children = (
+				68304E832590835900DBD01D /* README.md */,
 				68F701062568DE4100E7754E /* Arkanoid */,
 				68F701052568DE4100E7754E /* Products */,
 			);
